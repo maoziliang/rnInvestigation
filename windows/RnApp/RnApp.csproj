@@ -7,6 +7,8 @@
     <Platforms>AnyCPU;x86;x64</Platforms>
 	  <RuntimeIdentifiers>win10-x64;win-x64;win10-x86;win-x86</RuntimeIdentifiers>
 	<AssetTargetFallback>uap10.0.19041</AssetTargetFallback>
+	  <TargetPlatformMinVersion>10.0.18362.0</TargetPlatformMinVersion>
+	  <TargetPlatformVersion>10.0.18362.0</TargetPlatformVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +22,7 @@
     <ProjectReference Include="..\..\node_modules\react-native-windows\Microsoft.ReactNative.Managed\Microsoft.ReactNative.Managed.csproj" />
     <ProjectReference Include="..\..\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj" />
     <ProjectReference Include="..\..\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj" />
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
     <ProjectReference Include="..\Rn\Rn.csproj" />
   </ItemGroup>
 

@@ -8,6 +8,6 @@
         xmlns:xaml="clr-namespace:Microsoft.Toolkit.Wpf.UI.XamlHost;assembly=Microsoft.Toolkit.Wpf.UI.XamlHost"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <xaml:WindowsXamlHost InitialTypeName="Rn.MyUserControl1" />
+        <xaml:WindowsXamlHost InitialTypeName="ClassLibrary1.MyUserControl1" />
     </Grid>
 </Window>
